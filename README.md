@@ -1,5 +1,5 @@
 # kobo-aura-one-annotation-export
-Exports Kobo aura one annotations to a text file
+Exports Kobo Aura One ebook reader annotations to a text file
 
 ## Usage
 
