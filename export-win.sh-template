@@ -1,0 +1,6 @@
+#!/bin/bash
+set -eu
+
+export INPUT="/G/.kobo/KoboReader.sqlite"
+export SEPARATOR="\r\n"
+. export.sh
