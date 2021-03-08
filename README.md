@@ -1,15 +1,15 @@
 # kobo-aura-one-annotation-export
 
-Exports Kobo Aura One ebook reader annotations to a text file
+Exports Kobo Aura One ebook reader annotations to a text file.
 
 ## Usage
 
 1. Clone this project
-2. Add `sqlite3` / `sqlite3.exe` executable to the folder
+2. Download `sqlite3` / `sqlite3.exe` (see below) executable to the same folder as the script
 3. Run in bash:
 
 ```bash
-# Point to your Kobo's sqlite database
+# Point INPUT to your Kobo's sqlite database
 export INPUT="/G/.kobo/KoboReader.sqlite"
 
 # Choose the correct line separator for your OS
@@ -19,3 +19,9 @@ export SEPARATOR="\n" # For Linux (default)
 # Run the script
 ./export.sh
 ```
+
+## SQLite
+
+You can download SQLite tools from https://www.sqlite.org/download.html
+
+Put the sqlite executable to same folder as the script.
