@@ -1,5 +1,0 @@
-#!/bin/bash
-set -eu
-
-export INPUT="/G/.kobo/KoboReader.sqlite"
-. export.sh
